@@ -60,7 +60,7 @@ aside h2 {
 }
 
 aside img {
-    width: 200px;
+    width: 85%;
     height: var(--image-height)
 }
 
