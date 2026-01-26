@@ -13,14 +13,14 @@
     box-sizing: border-box;
 }
 
-header {
-    /* background-color: var(--primary-color); */
-    color: var(--secondary-color);
-}
-
 body {
     font-family: var(--body-font);
     color: #000;
+}
+
+header {
+    /* background-color: var(--primary-color); */
+    color: var(--secondary-color);
 }
 
 header,
