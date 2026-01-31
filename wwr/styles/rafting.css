@@ -106,12 +106,19 @@ figcaption {
 }
 
 footer {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr auto auto auto;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     background-color: var(--primary-color);
     color: var(--accent2-color);
+}
+
+footer nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 1rem;
 }
 
 footer img {
