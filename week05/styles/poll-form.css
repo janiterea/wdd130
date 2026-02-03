@@ -1,0 +1,153 @@
+:root {
+    --border-color: darkred;
+    --primary-color: navy;
+    --secondary-color: rgb(250, 210, 215);
+}
+
+/* universal rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* element rules */
+
+body,
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #000;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+    padding: 1rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid #333;
+    border-radius: 0.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color: var(--border-color);
+    background-color: var(--secondary-color);
+    display: grid;
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 150px;
+    justify-self: center;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    padding: 1rem;
+    border-top: 1px solid var(--border-color);
+    margin: 1rem auto;
+    width: 700px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: #000;
+    background: #fff;
+}
+
+/* class rules */
+
+.contact-info {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid #000;
+    border-color: var(--border-color);
+    padding: 1rem;
+}
+
+.questions {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid #000;
+    border-color: var(--border-color);
+    padding: 1rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column3 {
+    grid-column: 1 / -1;
+    margin: 0.5rem 0;
+    gap: 1rem;
+}
+
+/* attribute rules */
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+label[for="feedback"] {
+    display: block;
+    text-align: center;
+}
