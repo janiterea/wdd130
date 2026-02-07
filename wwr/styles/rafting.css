@@ -320,18 +320,18 @@ main {
     width: 100%;
 }
 
-.social-media {
+.socialmedia {
     position: absolute;
     right: 1rem;
     display: flex;
     gap: .5em;
 }
 
-.social-media a {
+.socialmedia a {
     text-decoration: none;
 }
 
-.social-media img {
+.socialmedia img {
     width: 2rem;
     padding: 2px;
 }
