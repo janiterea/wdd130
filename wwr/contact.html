@@ -14,8 +14,8 @@
 <body>
     <header>
         <img src="images/company-logo.jpg" alt="Rapids Rafting Company logo">
-        <nav class="menu">
-            <ul>
+        <nav class="nav-spacing">
+            <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
@@ -23,7 +23,7 @@
             </ul>
         </nav>
     </header>
-    <main class="contact-page">
+    <main class="contact-main-grid">
         <section class="contact-details">
             <h1>Rapids Rafting Company</h1>
             <address>
@@ -41,18 +41,18 @@
         </section>
         <section class="contact-form">
             <form>
-                <div class="form-item column1">
+                <div class="form-row-text">
                     <label for="user-name">Name:</label>
                     <input type="text" id="user-name" name="user-name" required
                       placeholder="Joe Bloggs">
                 </div>
-                <div class="form-item column1">
+                <div class="form-row-text">
                     <label for="user-email">Email:</label>
                     <input type="email" id="user-email" name="user-email" required
                       placeholder="example@mail.com">
                 </div>
                 <fieldset>
-                    <label class="purpose-label">Message Purpose</label>
+                    <label class="fieldset-label">Message Purpose</label>
                     <div class="radio-item">
                         <input type="radio" id="purpose-general" name="purpose" value="general">
                         <label for="purpose-general">General Inquiry</label>
@@ -68,31 +68,31 @@
                         <label for="purpose-suggestion">Website Suggestion</label>
                     </div>
                 </fieldset>
-                <div class="form-item column2">
+                <div class="form-row-textarea">
                     <label for="message">Message:</label>
                     <textarea name="message" id="message" rows="5"
                       placeholder="Type here"></textarea>
                 </div>
-                <div class="form-item column3">
+                <div class="form-row-check">
                     <input type="checkbox" id="subscribe" name="subscribe">
                     <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                 </div>
-                <button type="submit" class="form-item column2">Get in Touch!</button>
+                <button type="submit" class="form-submit">Get in Touch!</button>
             </form>
         </section>
         <section class="contact-team">
             <h2>We Are Here to Serve You</h2>
             <figure>
-                <img src="images/owner-photo.webp" alt="Profile pic of owner John Snow">
+                <img src="images/owner-photo.png" alt="Profile pic of owner John Snow">
                 <figcaption>John - Owner</figcaption>
             </figure>
             <figure>
-                <img src="images/safety-instructor-photo.webp"
+                <img src="images/safety-instructor-photo.png"
                   alt="Profile pic of safety instructor Ned Stark">
                 <figcaption>Ned - Safety Instructor</figcaption>
             </figure>
             <figure>
-                <img src="images/tour-guide-photo.webp" alt="Profile pic of tour guide Sansa Stark">
+                <img src="images/tour-guide-photo.png" alt="Profile pic of tour guide Sansa Stark">
                 <figcaption>Sansa - Tour Guide</figcaption>
             </figure>
         </section>
