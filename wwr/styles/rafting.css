@@ -409,7 +409,7 @@ td {
     padding: .5rem;
 }
 
-.trips-summary {
+.trips-description {
     text-align: center;
     margin: 0 0 .5rem 0;
     font-size: 1.1rem;
@@ -420,6 +420,11 @@ td {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: .5rem;
+}
+
+.trip-summary {
+    font-weight: 600;
+    text-align: center;
 }
 
 .trip-options p {
