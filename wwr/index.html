@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TBC">
-    <meta name="author" content="Jacob'm Aniterea">
     <title>Home Page - Rapids Rafting Company</title>
+    <meta name="description"
+      content="Rapids Rafting Company delivers safe, exciting river adventures for all skill levels with real rapids, expert guides, quality gear, and unforgettable moments.">
+    <meta name="author" content="Jacob'm Aniterea">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -15,20 +16,121 @@
         <img src="images/company-logo.jpg" alt="Rapids Rafting Company logo">
         <nav class="nav-spacing">
             <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="trips.html">TRIPS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Home Page</h1>
+        <section class="home-hero">
+            <h1>PREMIUM RAFTING ADVENTURES!</h1>
+            <img src="images/hero-banner-home.jpg" alt="Customers steering raft against the rapids">
+            <a href="trips.html" class="btn go-to-trips">Go to Trips</a>
+        </section>
+        <div class="home-grid">
+            <section class="home-purpose">
+                <h2>Our Purpose</h2>
+                <p>At Rapids Rafting Company, we’re all about delivering unforgettable, safe, and
+                    thrilling river
+                    adventures. Fast water, real challenge, and moments that stay with you long
+                    after the ride is
+                    what drives us. Every trip is built to spark excitement, build confidence, and
+                    create memories
+                    you’ll be talking about for years.
+                </p>
+                <img src="images/our-purpose.png"
+                  alt="Rafting guides standing together in safety gear">
+            </section>
+            <section class="home-promise">
+                <h2>Our Promise</h2>
+                <p>We guarantee a fun, safe, and memorable river adventure every time you join us.
+                    Real rapids, real
+                    challenge, and real moments that last, all backed by expert guides, quality
+                    gear, and a welcoming
+                    atmosphere. From the first splash to the final stretch, we’re committed to
+                    giving you an experience
+                    you’ll remember long after the ride.
+                </p>
+                <img src="images/our-promise.png"
+                  alt="Guests smiling and holding paddles during a rafting trip">
+            </section>
+            <section class="home-prices">
+                <h2>Our Prices</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Trip</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Deepfall Descent</td>
+                            <td>$150 per person</td>
+                        </tr>
+                        <tr>
+                            <td>Evergreen Rapids</td>
+                            <td>$120 per person</td>
+                        </tr>
+                        <tr>
+                            <td>Bluewater Rush</td>
+                            <td>$130 per person</td>
+                        </tr>
+                        <tr>
+                            <td>Echo Hollow Drift</td>
+                            <td>$100 per person</td>
+                        </tr>
+                        <tr>
+                            <td>Clearwater Glide</td>
+                            <td>$90 per person</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form class="home-form">
+                    <p>* Enter your details to subscribe to our newsletter and be
+                        notified of our seasonal discounts.</p>
+                    <div class="home-form-text">
+                        <label for="user-name">Name:
+                            <input type="text" id="user-name" name="user-name" required
+                              placeholder="Joe Bloggs"></label>
+                    </div>
+                    <div class="home-form-text">
+                        <label for="user-email">Email:
+                            <input type="email" id="user-email" name="user-email" required
+                              placeholder="example@mail.com"></label>
+                    </div>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </section>
+        </div>
+        <section class="reviews">
+            <h2>Customer Reviews</h2>
+            <figure class="review-card">
+                <img src="images/profile-pic-jenny.png" alt="Profile pic of Jenny">
+                <figcaption>“An unforgettable rush! The best adventure we’ve had in years.”
+                    -
+                    Rating: ⭐⭐⭐⭐⭐
+                </figcaption>
+            </figure>
+            <figure class="review-card">
+                <img src="images/profile-pic-mark.png" alt="Profile pic of Mark">
+                <figcaption>“Incredible guides, epic rapids, and memories we’ll be talking about
+                    forever.” - Rating: ⭐⭐⭐⭐⭐
+                </figcaption>
+            </figure>
+            <figure class="review-card">
+                <img src="images/profile-pic-helen.png" alt="Profile pic of Helen">
+                <figcaption>“The caves were amazing. Just beautiful. 5 stars every day of the week!”
+                    - Rating: ⭐⭐⭐⭐⭐</figcaption>
+            </figure>
+        </section>
     </main>
     <footer>
         <p>© 2026 | Rapids Rafting Company | Jacob'm Aniterea</p>
         <nav class="socialmedia">
-            <a href="https://tiktok.com">
+            <a href="https://youtube.com">
                 <img src="images/youtube-icon.svg" alt="YouTube Icon">
             </a>
             <a href="https://facebook.com">
