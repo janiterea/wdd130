@@ -182,6 +182,21 @@ nav a {
     padding: 8px;
 }
 
+/* --------------| TABLES |--------------*/
+
+th {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+tr,
+th,
+td {
+    border: 1px solid black;
+    font-size: .99rem;
+    padding: .2rem;
+}
+
 /* --------------| FOOTER |-------------- */
 
 footer {
@@ -283,19 +298,6 @@ footer {
 table {
     border-collapse: collapse;
     width: 100%;
-}
-
-th {
-    background-color: var(--secondary-color);
-    color: var(--accent2-color);
-}
-
-tr,
-th,
-td {
-    border: 1px solid black;
-    font-size: .99rem;
-    padding: .2rem;
 }
 
 /* ----------| REVIEWS SECTION |---------- */
